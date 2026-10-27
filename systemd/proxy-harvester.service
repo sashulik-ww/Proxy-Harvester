@@ -1,1 +1,10 @@
+[Unit]
+Description=Collect and verify public proxy configurations
+After=network-online.target
+Wants=network-online.target
 
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/proxy-harvester
+Environment=GITHUB_TOKEN=
+ExecStart=/opt/proxy-harvester/.venv/bin/python /opt/proxy-harvester/proxy_harvester.py --core both --workers 4
