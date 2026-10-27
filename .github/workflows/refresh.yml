@@ -1,13 +1,10 @@
 
 name: Refresh proxy lists
-
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 90 minutes (UTC), using alternating cron schedules.
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
-    - cron: "30 1,4,7,10,13,16,19,22 * * *"
-
+    - cron: "0 */6 * * *"
+    
 permissions:
   contents: write
 
@@ -18,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120
 
     env:
       GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
