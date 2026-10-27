@@ -1,1 +1,20 @@
-
+{
+  "max_repositories": 20,
+  "max_files_per_repository": 8,
+  "max_core_candidates": 1200,
+  "core_test_fraction": 0.9,
+  "tcp_timeout_seconds": 2.5,
+  "core_connect_timeout_seconds": 5,
+  "core_read_timeout_seconds": 10,
+  "speed_test_url": "https://speed.cloudflare.com/__down?bytes=262144",
+  "general_max": 600,
+  "core_max": 600,
+  "russian_max": 250,
+  "white_max": 450,
+  "max_per_country": 5,
+  "common_max_per_ip": 2,
+  "refresh_hours": 1.5,
+  "github_auto_discovery": true,
+  "telegram_discover_from_github_readmes": true,
+  "max_telegram_channels": 25
+}
