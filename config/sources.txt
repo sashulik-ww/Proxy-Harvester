@@ -1,0 +1,5 @@
+# Optional public subscription/config feeds, one URL per line.
+# The script also searches public GitHub repositories automatically.
+# HTTP/HTTPS below refer to fetching source files; HTTP proxy nodes themselves are excluded.
+https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/tcp-pass/batch_013.txt
+https://raw.githubusercontent.com/coldwater-10/V2ray-Config/main/Sub7.txt

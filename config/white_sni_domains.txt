@@ -1,0 +1,21 @@
+# Currently embedded in proxy_harvester.py (kept here as a human-readable reminder).
+# A candidate is included only when it is VLESS + REALITY and its SNI matches one of these suffixes.
+vk.com
+vk.ru
+mail.ru
+yandex.ru
+yandex.net
+ya.ru
+yastatic.net
+ozon.ru
+wildberries.ru
+wb.ru
+sber.ru
+sberbank.ru
+tbank.ru
+gosuslugi.ru
+rutube.ru
+ok.ru
+rambler.ru
+avito.ru
+kinopoisk.ru

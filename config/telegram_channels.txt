@@ -1,0 +1,3 @@
+# Optional PUBLIC Telegram channel usernames or preview URLs, one per line.
+# Example: channel_name  OR  https://t.me/s/channel_name
+# Private channels and bot links are intentionally unsupported.

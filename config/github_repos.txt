@@ -1,0 +1,10 @@
+# Public repositories to scan before generic GitHub search results.
+# Add/remove owner/repository entries as desired, one per line.
+anonymouskeys/Free-configs-
+VovaplusEXP/p-configs
+Delta-Kronecker/V2ray-Config
+coldwater-10/V2ray-Config
+sevcator/5ubscrpt10n
+10Dream/sub-mod
+TheCrowCreature/v2rayExtractor
+morpheusadam/v2ray-config
