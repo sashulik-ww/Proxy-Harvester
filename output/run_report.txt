@@ -1,23 +1,23 @@
 Proxy Harvester Run Report
-Generated: 2026-10-29T13:37:10.200640+00:00
-Parsed unique configs: 28510
-Public endpoints: 19666
-TCP/QUIC eligible: 16729
+Generated: 2026-10-29T19:38:31.872610+00:00
+Parsed unique configs: 29800
+Public endpoints: 20805
+TCP/QUIC eligible: 17515
 Core candidates tested: 1200
-Working on at least one core: 157
-Xray passed: 144
-sing-box passed: 110
+Working on at least one core: 131
+Xray passed: 120
+sing-box passed: 83
 
 Files:
 - working_proxies.txt: 34
-- xray_passed.txt: 25
-- singbox_passed.txt: 24
-- v2rayng.txt: 25
-- karing.txt: 24
-- by_protocol/vless.txt: 22
+- xray_passed.txt: 26
+- singbox_passed.txt: 27
+- v2rayng.txt: 26
+- karing.txt: 27
+- by_protocol/vless.txt: 27
 - by_protocol/vmess.txt: 2
 - by_protocol/trojan.txt: 22
-- by_protocol/shadowsocks.txt: 7
+- by_protocol/shadowsocks.txt: 5
 - by_protocol/socks.txt: 0
 - by_protocol/hysteria2.txt: 0
 - by_protocol/tuic.txt: 0
@@ -25,4 +25,4 @@ Files:
 - white_checked.txt: 0
 - hysteria2.txt: 0
 - run_report.json: 1
-- run_report.csv: 157
+- run_report.csv: 131
