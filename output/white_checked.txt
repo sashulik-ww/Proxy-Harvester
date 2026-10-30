@@ -1,0 +1,1 @@
+vless://55ad002b-6cdf-4d76-81bb-91f3f605afc5@83.147.232.69:10459?mode=gun&security=reality&encryption=none&pbk=DrVzuibwnFFd6HX9duNcyG65JPMCiUqoJFgxkktishg&fp=chrome&type=grpc&serviceName=openway_ndrl&sni=ya.ru&sid=af86f23452bf025a#%F0%9F%87%AC%F0%9F%87%B7%20Greece%20%7C%20VLESS%20REALITY%20%7C%20111ms%20%7C%202.2Mbps
